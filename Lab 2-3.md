@@ -1,6 +1,7 @@
 # 實作2-3, 讓你的RGB LED燈全彩模組也可會"呼吸"
 ### 接線圖
-![image](https://user-images.githubusercontent.com/17948436/132970849-e3c9223e-71db-417b-ab19-5700076ac600.png)
+![image](https://user-images.githubusercontent.com/17948436/132971267-ba832e3a-1714-454b-97e8-97a18cc894c8.png)
+
 
 ### code
  ```
