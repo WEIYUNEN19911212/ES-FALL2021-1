@@ -68,7 +68,7 @@ void loop()
   {
     changColor(2);
   }
-  else if(cm> 70&& cm<270)
+  else if(cm>= 70&& cm<270)
   {
     changColor(3);
   }
