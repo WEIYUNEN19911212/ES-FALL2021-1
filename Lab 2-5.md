@@ -1,7 +1,7 @@
 # 實作2-5 按下按鍵, Green LED亮 & Red LED滅; 放開按鍵
 ### 接線圖
 ![image](https://user-images.githubusercontent.com/17948436/134792208-025ad442-d66c-444e-b9ee-250df28ec14c.png)
-
+```
 int ledPinG = 13 ;
 int ledPinR = 8 ;
 int buttonPin = 2 ;
@@ -23,8 +23,8 @@ Serial.print(digitalRead(buttonPin)) ;
     digitalWrite(ledPinG, HIGH);
   }
   else{
-    digitalWrite(ledPinR, HIGH);
+  digitalWrite(ledPinR, HIGH);
   digitalWrite(ledPinG, LOW);
   }
-
 }
+```
