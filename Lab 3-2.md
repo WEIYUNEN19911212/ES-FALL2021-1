@@ -3,7 +3,7 @@
 ![image](https://user-images.githubusercontent.com/17948436/134792645-894aa5c8-72bd-4184-bc68-02127bfb3304.png)
 
 ### c code
-```
+```c
 const int Red = 12;
 const int Green = 8;
 const int Blue = 10;
