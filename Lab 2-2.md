@@ -4,7 +4,7 @@
 ![image](https://user-images.githubusercontent.com/17948436/132971879-2acb38e5-0b8e-4c78-b4fd-1cb8bdb831ed.png)
 
 ### c code
-```
+```c
 int R = 9;
 int G = 10;
 int B = 11;
