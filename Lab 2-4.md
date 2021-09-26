@@ -5,7 +5,7 @@
 
 
 ### c code
-```
+```c
 int sensorValue = 0;
 
 void setup()
