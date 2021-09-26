@@ -26,7 +26,7 @@ long readUltrasonicDistance(int triggerPin, int echoPin)
   return pulseIn(echoPin, HIGH);
 }
 
-void changColor(int type){
+void changeLedColor(int type){
   analogWrite(Red,0);
   analogWrite(Green,0);
   analogWrite(Blue,0);
@@ -62,15 +62,15 @@ void loop()
 
   if(cm <70)
   {
-    changColor(1);
+    changeLedColor(1);
   }
   else if(cm>= 270)
   {
-    changColor(2);
+    changeLedColor(2);
   }
   else if(cm>= 70&& cm<270)
   {
-    changColor(3);
+    changeLedColor(3);
   }
   
   // convert to inches by dividing by 2.54
