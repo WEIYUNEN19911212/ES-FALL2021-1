@@ -4,7 +4,7 @@
 
 
 ### code
- ```
+ ```c
 int R = 9;
 int G = 10;
 int B = 11;
