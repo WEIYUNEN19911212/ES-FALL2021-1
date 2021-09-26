@@ -27,9 +27,6 @@ long readUltrasonicDistance(int triggerPin, int echoPin)
 }
 
 void changeLedColor(int type){
-  analogWrite(Red,0);
-  analogWrite(Green,0);
-  analogWrite(Blue,0);
   switch (type){
     case 1://red
     analogWrite(Red,255);
