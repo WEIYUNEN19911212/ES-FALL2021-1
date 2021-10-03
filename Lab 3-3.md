@@ -16,23 +16,20 @@ void setup()
 void loop()
 {     
  int brightness = 0;
+  digitalWrite(ledR, HIGH);
+  analogWrite(ledG,brightness);
+  String outputStr = "";
  for(int y=1;y<=9;y++){
    for(int x=1;x<=9;x++){
-     Serial.print(x);
-     Serial.print("x");
-     Serial.print(y);
-     Serial.print("=");
-     Serial.println(x*y);
-
-     if(brightness>=255)
-     {
-       brightness = 255;
-       analogWrite(ledR,0);
-     }
-     analogWrite(ledR,brightness);
-     analogWrite(ledG,brightness);
-     brightness+=5;
+     outputStr = String(y) + "x" + String(x) + "=" + String(x*y);
+     Serial.println(outputStr);
+     brightness+=3;
    }
+   delay(100);
+     analogWrite(ledG,brightness);
  }
+  digitalWrite(ledR, 0);
+  digitalWrite(ledG, 0);  
 }
+
 ```
