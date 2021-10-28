@@ -43,10 +43,8 @@ void loop() {
   Serial.print("Distance, cm: ");
   Serial.print(dd);
   Serial.println();
-  /*
-		待完成
-*/
-
+  
+  //實作
   if(dd<150){
     digitalWrite(RLED, HIGH);
     digitalWrite(GLED, LOW);
