@@ -1,15 +1,15 @@
 
-###
+### LCD顯示溫度感應器的溫度;若溫度<38 綠LED亮; 若大於38度, 紅色LED亮
 
-#### 接線圖(<37 綠燈亮)
+#### 接線圖(<38 綠燈亮)
 ![image](https://user-images.githubusercontent.com/17948436/139274118-8bb2ee15-b51b-43ce-80dd-d8cd604acec3.png)
 
 
-#### 接線圖(>37 紅燈亮)
+#### 接線圖(>=38 紅燈亮)
 ![image](https://user-images.githubusercontent.com/17948436/139274016-26bc42d0-e6df-48df-b50c-3c0ffb5d195c.png)
 
 ### code 
-````c
+```c
 #include <LiquidCrystal.h>
 
 LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
@@ -53,4 +53,4 @@ void loop() {
   Serial.println(reading);
   Serial.println(voltage);  
 }
-````
+```
