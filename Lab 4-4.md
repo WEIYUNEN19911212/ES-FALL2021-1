@@ -1,4 +1,4 @@
-### ### Lab 4-4 整合超音波感測器 + LCD: 參考之前的實作, 完成以下任務:
+### Lab 4-4 整合超音波感測器 + LCD: 參考之前的實作, 完成以下任務:
 
 1. **將超音波感測器傳回的距離, 在LCD上面顯示,** 
 2. **同時也和之前的實作一樣, 在序列輸出.** 
@@ -6,7 +6,8 @@
 
 
 #### 接線圖：
-![image](https://user-images.githubusercontent.com/17948436/139267951-973c88bf-692b-4395-a511-8ff97e982094.png)
+![image](https://user-images.githubusercontent.com/17948436/139269006-ed4fee86-4ff3-45a3-a1ab-1c118517aa75.png)
+
 
 #### code
 ````c
