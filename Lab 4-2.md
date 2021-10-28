@@ -3,6 +3,7 @@
 #### 接線圖：
 ![image](https://user-images.githubusercontent.com/17948436/139261838-55fffbe8-15f4-45f5-aaa2-5ad413d9f927.png)
 
+#### 
 ```` c
 // 七段顯示器製作顯示 . →1→ ... → 9 → 0 → 全滅
 byte digits[10][7] = { 
