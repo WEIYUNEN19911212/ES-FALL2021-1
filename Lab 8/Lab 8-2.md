@@ -13,7 +13,7 @@
 Prepared by Horace, Date: October, 2021
 
 * Colaboratory (簡稱為「Colab」) 可讓你在瀏覽器上撰寫及執行 Python. 
-* Colab 筆記本的互動式環境，可讓你撰寫和執行程式碼
+* Colab 筆記本的互動式環境，可讓你撰寫和執行程式碼xxx
 
 ## 介紹
 
@@ -178,7 +178,7 @@ hello('Fred', loud=True)
 ### 實作1181: 一起來debug!
 animals = ['cat', 'dog', 'fish', 'python','']
 for xx in animals:
-  hello(xxx)
+  hello(xx)
 
 # P1142
 class Car:
